@@ -29,7 +29,7 @@ while run:
     fighter1.draw(screen)
     fighter2.draw(screen)
 
-    fighter1.move()
+    fighter1.move(screen_width, screen_height, screen)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
